@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #414141;
+    color: white;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    list-style-type: none;
+    font-weight: bold;
+    height: auto;
+  }
+  
+  .navbar ul li {
+    cursor: pointer;
+  }
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
